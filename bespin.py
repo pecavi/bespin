@@ -1,6 +1,6 @@
 from Tkinter import *
 
-from ttk import *
+from tkinter import ttk
 
 import tkFileDialog
 
