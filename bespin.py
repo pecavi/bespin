@@ -1,6 +1,6 @@
 from Tkinter import *
 
-from tkinter import ttk
+from ttk import *
 
 import tkFileDialog
 
@@ -213,7 +213,7 @@ class Application(Frame):
 
 		self.lbDrop.grid(column=1, row=9, sticky=(N,W))
 
-		s = ttk.Scrollbar(self, orient=VERTICAL, command=self.lbDrop.yview)
+		s = Scrollbar(self, orient=VERTICAL, command=self.lbDrop.yview)
 
 		s.grid(column=1, row=9, sticky=(N,S,E))
 
@@ -229,7 +229,7 @@ class Application(Frame):
 
 		self.lbGdri.grid(column=2, row=9, sticky=(N,W))
 
-		s2 = ttk.Scrollbar(self, orient=VERTICAL, command=self.lbGdri.yview)
+		s2 = Scrollbar(self, orient=VERTICAL, command=self.lbGdri.yview)
 
 		s2.grid(column=2, row=9, sticky=(N,S,E))
 
@@ -245,7 +245,7 @@ class Application(Frame):
 
 		self.lbOdri.grid(column=3, row=9, sticky=(N,W))
 
-		s3 = ttk.Scrollbar(self, orient=VERTICAL, command=self.lbOdri.yview)
+		s3 = Scrollbar(self, orient=VERTICAL, command=self.lbOdri.yview)
 
 		s3.grid(column=3, row=9, sticky=(N,S,E))
 
